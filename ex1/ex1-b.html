@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle_1-b.css">
+    <title>Public Trasport Card Page</title>
+</head>
+
+<body>
+    <header>
+        <div id=logo>
+            <img src="images/ATHENA_CARD_COMBO.png" height="100" />
+        </div>
+        <div id=langs-container>
+            <div id="lang-GR">
+                <div class="lang-text">GR</div>
+            </div>
+            <div id="lang-EN">
+                <div class="lang-text">EN</div>
+            </div>
+        </div>
+        <div class="menu-container">
+            <ul>
+                <li><img src="images/usage-separator.png" height="20" />
+                    <a href="#">ATH.ENA Card</a>
+                </li>
+
+                <li><img src="images/usage-separator.png" height="20" />
+                    <a href="#">Πολλαπλό εισιτήριο</a>
+                </li>
+
+                <li><img src="images/usage-separator.png" height="20" />
+                    <a href="#">Σημείο Έκδοσης</a>
+                </li>
+
+                <li><img src="images/usage-separator.png" height="20" />
+                    <a href="#">Κόμιστρα</a>
+                </li>
+
+                <li><img src="images/usage-separator.png" height="20" />
+                    <a href="#">FAQs</a>
+                </li>
+
+                <li><img src="images/usage-separator.png" height="20" />
+                    <a href="#">Νέα</a>
+                </li>
+            </ul>
+        </div>
+        <div id="img1-container">
+            <img id="img1" src="images/eksipni_right.png" />
+        </div>
+    </header>
+
+    <main>
+        <div id="main-container">
+            <div id="directions-1">
+                Συμπληρώστε το παρακάτω έντυπο για να λάβετε την κάρτα σας στη διεύθυνσή σας
+            </div>
+            <div id="directions-2">
+                <b>ΠΡΟΣΟΧΗ</b> : Εάν υποβάλλετε τα στοιχεία σας μέσω αυτής της φόρμας, δε θα μπορείτε να εκδώσετε κάρτα από κανένα εκδοτήριο έως ότου εκτυπωθεί και αποσταλεί η κάρτα σας μέσω ταχυδρομείου
+            </div>
+            <div id="form-container">
+                <form id="form">
+                    <label for="fname" class="labels" id="label1"><span class="star">*</span> 'Ονομα:</label>
+                    <input type="text" id="fname" class="inputs" placeholder="(Μόνο γράμματα)" pattern="[a-zA-Z]+" required>
+
+                    <label for="fdocument" class="labels" id="label2"><span class="star">*</span> Τύπος Εγγράφου Ταυτοποίησης:</label>
+                    <select id="fdocument" class="inputs">
+                        <option value="amka">ΑΜΚΑ</option>
+                        <option value="pass">Διαβατήριο</option>
+                    </select>
+
+                    <label for="fsurname" class="labels" id="label3"><span class="star">*</span> Επώνυμο:</label>
+                    <input type="text" id="fsurname" class="inputs" placeholder="(Μόνο γράμματα)" pattern="[a-zA-Z]+" required>
+
+                    <label for="fdocnumber" class="labels" id="label4"><span class="star">*</span> Αριθμός Εγγράφου</label>
+                    <input type="text" id="fdocnumber" class="inputs" placeholder="(Αριθμός ΑΜΚΑ/Διαβατηρίου)" pattern="^\d{11}$" required>
+
+                    <label for="fdate" class="labels" id="label5"><span class="star">*</span> Μήνας/Έτος Γεννήσεως:</label>
+                    <div id="date-container">
+                        <select id="fmonth" class="inputs" required>
+                            <option value="jan">Ιανουάριος</option>
+                            <option value="feb">Φεβρουάριος</option>
+                            <option value="mar">Μάρτιο</option>
+                            <option value="apr">Απρίλιος</option>
+                            <option value="may">Μάιος</option>
+                            <option value="jun">Ιούνιος</option>
+                            <option value="jul">Ιούλιος</option>
+                            <option value="aug" selected>Αύγουστος</option>
+                            <option value="sep">Σεπτέμβριος</option>
+                            <option value="oct">Οκτώβριος</option>
+                            <option value="nov">Νοέμβριος</option>
+                            <option value="dec">Δεκέμβριος</option>
+                        </select>
+
+                        <select id="fyear" class="inputs" required>
+                            <option disabled selected value> </option>
+                            <option value="1950">1950</option>
+                            <option value="1951">1951</option>
+                            <option value="1952">1952</option>
+                            <option value="1953">1953</option>
+                            <option value="1954">1954</option>
+                            <option value="1955">1955</option>
+                            <option value="1956">1956</option>
+                            <option value="1957">1957</option>
+                            <option value="1958">1958</option>
+                            <option value="1959">1959</option>
+                            <option value="1960">1960</option>
+                            <option value="1961">1961</option>
+                            <option value="1962">1962</option>
+                            <option value="1963">1963</option>
+                            <option value="1964">1964</option>
+                            <option value="1965">1965</option>
+                            <option value="1966">1966</option>
+                            <option value="1967">1967</option>
+                            <option value="1968">1968</option>
+                            <option value="1969">1969</option>
+                            <option value="1970">1970</option>
+                            <option value="1971">1971</option>
+                            <option value="1972">1972</option>
+                            <option value="1973">1973</option>
+                            <option value="1974">1974</option>
+                            <option value="1975">1975</option>
+                            <option value="1976">1976</option>
+                            <option value="1977">1977</option>
+                            <option value="1978">1978</option>
+                            <option value="1979">1979</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1988">1988</option>
+                            <option value="1989">1989</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                        </select>
+                    </div>
+
+                    <label for="femail" class="labels" id="label6"><span class="star">*</span> Email:</label>
+                    <input type="email" id="femail" class="inputs" placeholder="(Μορφή Ηλ. Ταχυδρ.)" required>
+
+                    <div id="address-container">
+                        <label for="faddr" class="labels" id="label7"><span class="star">*</span> Διεύθυνση:</label>
+                        <input type="text" id="faddr" class="inputs" required>
+
+                        <label for="faddr-num" class="labels" id="label8"><span class="star">*</span> Αριθμός:</label>
+                        <input type="text" id="faddr-num" class="inputs" pattern="[0-9]+" required>
+
+                        <label for="faddr-zip" class="labels" id="label9"><span class="star">*</span> Τ.Κ.:</label>
+                        <input type="text" id="faddr-zip" class="inputs" pattern="[0-9]+" required>
+
+                        <label for="faddr-region" class="labels" id="label10"><span class="star">*</span> Περιοχή:</label>
+                        <input type="text" id="faddr-region" class="inputs" required>
+                    </div>
+
+                    <label for="fphone" class="labels" id="label11"><span class="star">*</span> Αριθμός Κινητού Τηλεφώνου:</label>
+                    <input type="text" id="fphone" class="inputs" placeholder="(Μόνο αριθμοί)" pattern="[0-9]+" required>
+
+                    <label for="fage-profile" class="labels" id="label12"> Προφίλ Ηλικίας</label>
+                    <select id="fage-profile" class="inputs">
+                        <option disabled selected value> </option>
+                        <option value="kid">Παιδιά 7 έως 12 ετών</option>
+                        <option value="young">Νέοι 13 έως 18 ετών</option>
+                        <option value="adult">Ενήλικες</option>
+                    </select>
+
+                    <label for="fcategory" class="labels" id="label13"> Κατηγορία Δικαιούχου</label>
+                    <select id="fcategory" class="inputs">
+                        <option disabled selected value> </option>
+                        <option value="none">Καμία</option>
+                        <optgroup label="Μαθητές/Φοιτητές/Σπουδαστές">
+                            <option value="uni">Τριτοβάθμια Εκπαίδευση (ΑΕΙ/ ΤΕΙ)</option>
+                        </optgroup>
+                        <optgroup label="Ειδικές Ομάδες">
+                            <option value="disabled">ΑΜΕΑ</option>
+                            <option value="unemployed">Άνεργοι</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="fpin" class="labels" id="label14"><span class="star">*</span> PIN (8 Ψηφία - Μόνο αριθμοί)</label>
+                    <input type="text" id="fpin" class="inputs" pattern="[0-9]{8}" required>
+
+                    <label for="fpin-verification" class="labels" id="label15"><span class="star">*</span> Επαλήθευση PIN (8 Ψηφία - Μόνο αριθμοί)</label>
+                    <input type="text" id="fpin-verification" class="inputs" pattern="[0-9]{8}" required>
+
+                    <div id="directions-3">
+                        ΣΗΜΕΙΩΣΗ: Παρακαλούμε όπως φυλάξετε τον προσωπικό κωδικό σας (PIN), για την περίπτωση επανέκδοσης της κάρτας σας
+                    </div>
+
+                    <div id="directions-4">
+                        <b>ΠΡΟΣΟΧΗ</b> : Πατώντας το κουμπί "Αποθήκευση Φόρμας", τα δεδομένα σας θα αποθηκευθούν.
+                    </div>
+
+                    <input type="file" id="image-upload" name="imageUpload" accept="image/jpeg">
+                    <label for="image-upload" id="label16">Μεταφόρτωση φωτογραφίας προσώπου</label>
+
+                    <div id="fterms-container">
+                        <input type="checkbox" id="fterms" unchecked />
+                        <label for="fterms">Αποδέχομαι τους όρους χρήσης και αγοράς</label>
+                    </div>
+
+                    <input type="submit" id="save" value="Αποθήκευση">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id=logo-footer-1>
+            <img src="images/background-footer-1.png" id="foot" height="140" />
+        </div>
+        <div id=logo-footer-2>
+            <img src="images/logos2oasa.png" id="foot" />
+        </div>
+    </footer>
+</body></html>
