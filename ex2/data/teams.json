@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "category": "A",
+        "name": "Team AA"
+    },
+    {
+        "id": 2,
+        "category": "A",
+        "name": "Team AB"
+    },
+    {
+        "id": 3,
+        "category": "A",
+        "name": "Team AC"
+    },
+    {
+        "id": 4,
+        "category": "A",
+        "name": "Team AD"
+    },
+    {
+        "id": 5,
+        "category": "A",
+        "name": "Team AE"
+    },
+    {
+        "id": 6,
+        "category": "A",
+        "name": "Team AF"
+    },
+    {
+        "id": 7,
+        "category": "A",
+        "name": "Team AG"
+    },
+    {
+        "id": 8,
+        "category": "A",
+        "name": "Team AH"
+    },
+    {
+        "id": 9,
+        "category": "B",
+        "name": "Team BA"
+    },
+    {
+        "id": 10,
+        "category": "B",
+        "name": "Team BB"
+    },
+    {
+        "id": 11,
+        "category": "B",
+        "name": "Team BC"
+    },
+    {
+        "id": 12,
+        "category": "B",
+        "name": "Team BD"
+    },
+    {
+        "id": 13,
+        "category": "B",
+        "name": "Team BE"
+    },
+    {
+        "id": 14,
+        "category": "B",
+        "name": "Team BF"
+    },
+    {
+        "id": 15,
+        "category": "B",
+        "name": "Team BG"
+    },
+    {
+        "id": 16,
+        "category": "B",
+        "name": "Team BH"
+    }
+
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex2.css">
+    <script src="ex2.js" defer></script>
+    <title>Football Matches</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo-container">
+            <div class="logo"><img id="logo_soccer" src="images/soccer_logo.png" /></div>
+        </div>
+        
+
+        <h1 id="header_1">Football Matches</h1>
+        <label for="displayType">Display:</label>
+        <select id="displayType">
+            <option disabled selected value> </option>
+            <option value="results">Results</option>
+            <option value="rankings">Rankings</option>
+        </select>
+        <label for="displayCategory">Category:</label>
+        <select id="displayCategory">
+            <option disabled selected value> </option>
+            <option value="A">Category A</option>
+            <option value="B">Category B</option>
+        </select>
+    </header>
+    <main>
+        <section id="resultsSection" style="display: none">
+            <h2>Results</h2>
+            <table id="resultsTable">
+            </table>
+        </section>
+        <section id="rankingsSection" style="display: none">
+
+            <label for="rankingFilter">Ranking Filter:</label>
+            <select id="rankingFilter">
+                <option value="all" selected="selected">All Results</option>
+                <option value="home">Home Games</option>
+                <option value="away">Away Games</option>
+            </select>
+
+            <h2>Rankings</h2>
+            <table id="rankingsTable">
+            </table>
+            <table id="rankingsTableHome">
+            </table>
+            <table id="rankingsTableAway">
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
